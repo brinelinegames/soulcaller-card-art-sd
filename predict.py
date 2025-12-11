@@ -73,8 +73,8 @@ class Predictor(BasePredictor):
         generator = torch.manual_seed(seed)
 
         # 🔒 Hardcoded portrait SDXL resolution (standard portrait)
-        width = 832
-        height = 1216
+        width = 1216
+        height = 832
 
         logging.info(f"🟡 Running inference at {width}x{height}: '{prompt}'")
 
